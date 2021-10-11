@@ -1,0 +1,15 @@
+Feature: View home page
+  In order to check home page content
+  As a guest user
+  I want to be able to view home page
+
+  Scenario: View home page content
+    Given I am a guest user
+    When I open "/" page
+    Then I see "home page"
+
+#  Scenario: Click to link
+#    Given I am a guest user
+#    And I am on "/" page
+#    When I click "join-link" element
+#    Then I see "register"
